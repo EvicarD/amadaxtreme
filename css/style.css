@@ -1,0 +1,10 @@
+.base-yellow {
+  color: #ef8334 !important;
+}
+
+@media (min-width: 992px) {
+  #mainNav.navbar-shrink .nav-link.active {
+    color: #ef8334 !important;
+    border-bottom: 0.25rem solid #ef8334 !important;
+  }
+}
