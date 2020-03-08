@@ -51,3 +51,7 @@
 $(document).ready(function(e) {
   $(".arrow").toggleClass("bounceAlpha");
 });
+
+var d = new Date();
+var n = d.getFullYear();
+document.getElementById("year").innerHTML = n;
