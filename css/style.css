@@ -1,6 +1,9 @@
 body {
   font-size: 1.1rem;
 }
+.main-font {
+  font-family: "Allerta Stencil";
+}
 
 .base-yellow {
   color: #ff8500 !important;
@@ -117,4 +120,8 @@ body {
 
 .bg-light {
   background-color: black !important;
+}
+
+.cover {
+  height: 90vh;
 }

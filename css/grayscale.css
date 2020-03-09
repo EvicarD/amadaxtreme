@@ -4,10 +4,10 @@
 }
 
 #mainNav .navbar-toggler {
-  font-size: 80%;
+  font-size: 100%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #ff8500;
+  border: 0px solid #ff8500;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -84,7 +84,6 @@
   width: 100%;
   height: auto;
   min-height: 35rem;
-  padding: 15rem 0;
   background: linear-gradient(
       to bottom,
       rgba(22, 22, 22, 0.3) 0%,
