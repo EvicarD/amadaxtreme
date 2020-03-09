@@ -1,6 +1,9 @@
 body {
   font-size: 1.1rem;
 }
+.main-font {
+  font-family: "Allerta Stencil";
+}
 
 .base-yellow {
   color: #ff8500 !important;
@@ -15,7 +18,6 @@ body {
 
 .center-con {
   display: flex;
-  height: 10vh;
   font-size: 12px;
   justify-content: center;
   color: #fff;
@@ -30,6 +32,7 @@ body {
   cursor: pointer;
   left: 50%;
   transform: rotate(90deg);
+  margin-right: 15px;
 }
 
 .arrow {
@@ -117,4 +120,8 @@ body {
 
 .bg-light {
   background-color: black !important;
+}
+
+.cover {
+  height: 90vh;
 }
