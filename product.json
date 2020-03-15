@@ -1,0 +1,39 @@
+[
+  {
+    "landcruiser 70": {
+      "make": "toyota",
+      "model": "FZJ76, HZJ76 , VDJ76",
+      "year": "2004-2007",
+      "detail": "Station Wagon V8 Turbo Diesel",
+      "image": "hello"
+    },
+    "landcruiser 75": {
+      "make": "toyota",
+      "model": "FJ75, HJ75, BJ75",
+      "year": "1984-1990",
+      "detail": "PICKUP , TROOP  CARRIER",
+      "advanture": {
+        "front": {
+          "price": 200000,
+          "sku": "IC-26-512"
+        },
+        "rear": {
+          "price": 200000,
+          "sku": "IC-26-502"
+        }
+      },
+      "explorerII": {
+        "front": {
+          "price": 750000,
+          "sku": "EXII-26-512CO"
+        },
+        "rear": {
+          "price": 750000,
+          "sku": "EXII-26-502CO"
+        }
+      },
+      "image": "landcruiser-75",
+      "extension": "5см хүртэл"
+    }
+  }
+]

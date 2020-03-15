@@ -1,0 +1,56 @@
+<script id="mustacheTempalte_a" type="text/template">
+  <div class="item">
+      <h1>Upcoming Shows</h1>
+      {{#shows}}
+          <ul>
+              <li><strong>Title:</strong> {{title}}</li>
+              <li><strong>Description:</strong> {{{description}}}</li>
+              <li><strong>Video:</strong> {{video}}</li>
+              <li><strong>Category:</strong> {{category}}</li>
+          </ul>
+      {{/shows}}
+  </div>
+</script>
+
+<script id="mustacheTempalte_b" type="text/template">
+  <div class="item">
+      <h1>Upcoming Shows</h1>
+      {{#shows}}
+          <ul>
+              <li><strong>Title:</strong> {{title}}</li>
+              <li><strong>Description:</strong> {{{description}}}</li>
+              <li><strong>Video:</strong> {{video}}</li>
+              <li><strong>Category:</strong> {{category}}</li>
+          </ul>
+      {{/shows}}
+  </div>
+</script>
+
+<div class="target-output" data-template-chosen="a"></div>
+
+<script>
+  var targetContainer = $(".target-output"),
+    templateDefined = $(".target-output").data("template-chosen"),
+    template = $("#mustacheTempalte_" + templateDefined).html();
+
+  var shows = {
+    shows: [
+      {
+        category: "children",
+        description: "<a href='#'>A show</a> about a cake",
+        title: "Strawberry Shortcake",
+        video: "none"
+      },
+      {
+        category: "children",
+        description: "A show about a ice",
+        title: "Vanilla Ice",
+        video: "none"
+      }
+    ]
+  };
+
+  var html = Mustache.to_html(template, shows);
+
+  $(targetContainer).html(html);
+</script>
