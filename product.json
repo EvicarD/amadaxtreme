@@ -1,131 +1,264 @@
 [
   {
-    "landcruiser 70": {
-      "make": "toyota",
-      "model": "FZJ76, HZJ76 , VDJ76",
-      "year": "2004-2007",
-      "detail": "Station Wagon V8 Turbo Diesel",
+    "F Series": {
+      "make": "FORD",
+      "model": "F250 4x4",
+      "year": "2009-2014",
+      "detail": "Single & Dual cab,Super Duty",
       "adventure": {
         "front": {
-          "price": 200000,
-          "sku": "IC-26-512"
+          "price": 250000,
+          "sku": "C-GE-24-623GS"
         },
         "rear": {
-          "price": 200000,
-          "sku": "IC-26-502"
+          "price": 250000,
+          "sku": "C-GA-31-624GS"
         }
       },
       "explorerII": {
         "front": {
           "price": 750000,
-          "sku": "EXII-26-512CO"
+          "sku": "C-EXII-24-623CO"
         },
         "rear": {
           "price": 750000,
-          "sku": "EXII-26-502CO"
+          "sku": "C-EXII-31-624SO"
         }
-      },
-      "image": {
-        "suspention": [
-          "front",
-          "rear"
-        ]
-      },
-      "extension": "5см хүртэл"
+      }
     },
-    "landcruiser 75": {
+    "LAND CRUISER 70, 76": {
       "make": "toyota",
-      "model": "FJ75, HJ75, BJ75",
-      "year": "1984-1990",
-      "detail": "PICKUP , TROOP  CARRIER",
-      "adventure": {
-        "front": {
-          "price": 200000,
-          "sku": "IC-26-512"
-        },
-        "rear": {
-          "price": 200000,
-          "sku": "IC-26-502"
-        }
-      },
-      "explorerII": {
-        "front": {
-          "price": 750000,
-          "sku": "EXII-26-512CO"
-        },
-        "rear": {
-          "price": 750000,
-          "sku": "EXII-26-502CO"
-        }
-      },
-      "image": "landcruiser-75",
-      "extension": "5см хүртэл"
-    },
-    "landcruiser 200": {
-      "make": "toyota",
-      "model": "FZJ76, HZJ76 , VDJ76",
+      "model": "FZJ76, HZJ76 ,FZJ78, VDJ76, V8 Turbo Diesel",
       "year": "2004-2007",
-      "detail": "Station Wagon V8 Turbo Diesel",
+      "detail": "Station Wagon V8 Turbo Diezel",
       "adventure": {
         "front": {
-          "price": 200000,
-          "sku": "IC-26-512"
+          "price": 250000,
+          "sku": "C-GA-22-522GS"
         },
         "rear": {
-          "price": 200000,
-          "sku": "IC-26-502"
+          "price": 250000,
+          "sku": "C-HD-26-502-GS"
         }
       },
       "explorerII": {
         "front": {
           "price": 750000,
-          "sku": "EXII-26-512CO"
+          "sku": "C-EXII-22-522SO"
         },
         "rear": {
           "price": 750000,
-          "sku": "EXII-26-502CO"
+          "sku": "C-EXII-26-502SO"
         }
-      },
-      "image": {
-        "suspention": [
-          "front",
-          "rear"
-        ]
-      },
-      "extension": "5см хүртэл"
+      }
     },
-    "landcruiser 300": {
+    "LAND CRUISER 78, 79": {
       "make": "toyota",
-      "model": "FZJ76, HZJ76 , VDJ76",
-      "year": "2004-2007",
-      "detail": "Station Wagon V8 Turbo Diesel",
+      "model": "FZJ78, HZJ78-79 ,FZJ78, HZJ78, VDJ78, V8 Diesel",
+      "year": "1999-2014",
+      "detail": "TROOP CARRIER",
       "adventure": {
         "front": {
-          "price": 200000,
-          "sku": "IC-26-512"
+          "price": 250000,
+          "sku": "C-FE-24-509GS"
         },
         "rear": {
-          "price": 200000,
-          "sku": "IC-26-502"
+          "price": 250000,
+          "sku": "C-IC-22-510GS"
         }
       },
       "explorerII": {
         "front": {
           "price": 750000,
-          "sku": "EXII-26-512CO"
+          "sku": "C-EXII-22-522SO"
         },
         "rear": {
           "price": 750000,
-          "sku": "EXII-26-502CO"
+          "sku": "C-EXII-26-502SO"
+        }
+      }
+    },
+    "LAND CRUISER 120": {
+      "make": "toyota",
+      "model": "GRJ/RZJ/VZJ/KDJ/KDJ120, 121",
+      "year": "2003-2009",
+      "detail": "Station Wagon ,SWR LWB",
+      "adventure": {
+        "front": {
+          "price": 250000,
+          "sku": "C-GA-23-533GS"
+        },
+        "rear": {
+          "price": 250000,
+          "sku": "C-HD-26-539GS"
         }
       },
-      "image": {
-        "suspention": [
-          "front",
-          "rear"
-        ]
+      "explorerII": {
+        "front": {
+          "price": 750000,
+          "sku": "C-EXII-23-533SO"
+        },
+        "rear": {
+          "price": 750000,
+          "sku": "C-EXII-26-539SO"
+        }
+      }
+    },
+    "LAND CRUISER 150": {
+      "make": "toyota",
+      "model": "GRJ150, TRJ150",
+      "year": "2008-2018",
+      "detail": "Station Wagon ,SWR LWB",
+      "adventure": {
+        "front": {
+          "price": 250000,
+          "sku": "C-GA-23-533GS"
+        },
+        "rear": {
+          "price": 250000,
+          "sku": "C-HD-26-539GS"
+        }
       },
-      "extension": "5см хүртэл"
+      "explorerII": {
+        "front": {
+          "price": 750000,
+          "sku": "C-EXII-23-533SO"
+        },
+        "rear": {
+          "price": 750000,
+          "sku": "C-EXII-26-539SO"
+        }
+      }
+    },
+    "LAND CRUISER 200": {
+      "make": "toyota",
+      "model": "UZJ200/URJ/GRJ/VDJ 200",
+      "year": "2007-2018",
+      "detail": "Station Wagon",
+      "adventure": {
+        "front": {
+          "price": 250000,
+          "sku": "C-GA-27-621GS"
+        },
+        "rear": {
+          "price": 250000,
+          "sku": "C-GE-26-622GS"
+        }
+      },
+      "explorerII": {
+        "front": {
+          "price": 750000,
+          "sku": "C-EXII-27-621SO"
+        },
+        "rear": {
+          "price": 750000,
+          "sku": "C-EXII-26-539SO"
+        }
+      }
+    },
+    "PATROL 4WD Y61": {
+      "make": "nissan",
+      "model": "Y61 GU ",
+      "year": "1997-2001",
+      "detail": "Front Rear Coil Spring",
+      "adventure": {
+        "front": {
+          "price": 250000,
+          "sku": "C-GE-22-522GS"
+        },
+        "rear": {
+          "price": 250000,
+          "sku": "C-HD-26-502GS"
+        }
+      },
+      "explorerII": {
+        "front": {
+          "price": 750000,
+          "sku": "C-EXII-22-522SO"
+        },
+        "rear": {
+          "price": 750000,
+          "sku": "C-EXII-26-502SO"
+        }
+      }
+    },
+    "PATROL 4WD": {
+      "make": "nissan",
+      "model": "Y62 ",
+      "year": "2010",
+      "detail": "LWB Wagon 5.6L V8 Petrol",
+      "adventure": {
+        "front": {
+          "price": 250000,
+          "sku": "C-GE-19-615"
+        },
+        "rear": {
+          "price": 250000,
+          "sku": "C-GE-25-616"
+        }
+      },
+      "explorerII": {
+        "front": {
+          "price": 750000,
+          "sku": "C-EXII-19-615CO"
+        },
+        "rear": {
+          "price": 750000,
+          "sku": "C-EXII-25-616CO"
+        }
+      }
+    },
+    "TACOMA 240 Series": {
+      "make": "toyota",
+      "model": "TRN/GRN",
+      "year": "2005",
+      "detail": "SINGLE CAB ,EXTRA CAB,DUAL CAB, 4x4",
+      "adventure": {
+        "front": {
+          "price": 250000,
+          "sku": "C-GA-23-533GS"
+        },
+        "rear": {
+          "price": 250000,
+          "sku": "C-HD-26-539GS"
+        }
+      },
+      "explorerII": {
+        "front": {
+          "price": 750000,
+          "sku": "C-EXII-23-533SO"
+        },
+        "rear": {
+          "price": 750000,
+          "sku": "C-EXII-26-539SO"
+        }
+      }
+    },
+    "Tundra": {
+      "make": "toyota",
+      "model": "UCK55, UPK55 ,USK55, UCK56, UPK56, USK 56",
+      "year": "2007-2014",
+      "detail": "4.7L, 5.7L, PICKUP 4X4",
+      "adventure": {
+        "front": {
+          "price": 250000,
+          "sku": "C-GA-25-617GS"
+        },
+        "rear": {
+          "price": 250000,
+          "sku": "C-HD-27-618GS"
+        }
+      },
+      "explorerII": {
+        "front": {
+          "price": 750000,
+          "sku": "C-EXII-25-617SO"
+        },
+        "rear": {
+          "price": 750000,
+          "sku": "C-EXII-27-618SO"
+        }
+      }
     }
   }
 ]
