@@ -13,10 +13,12 @@
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://unpkg.com/@coreui/coreui@3.0.0-rc.0/dist/css/coreui.min.css"
+    crossorigin="anonymous">
   <!-- Custom fonts for this template -->
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
   <link rel="stylesheet" href="css/style.min.css" />
-  <link href="vendor/fontawesome/css/all.min.css" rel="stylesheet" media="print" />
+  <link href="vendor/fontawesome/css/all.min.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
   <link
     href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
@@ -29,13 +31,36 @@
   <link href="css/grayscale.min.css" rel="stylesheet" />
 </head>
 
-<body onload="renderHello()">
-  <nav>
-    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+<body onload="renderHello()" class="c-app">
+  <div class="container-fluid pl-0">
+    <div class="row sidebar-background">
+      <div class="col-3 pr-0">
+        <div class="c-sidebar c-sidebar-dark c-sidebar-show">
+          <div class="c-sidebar-nav">
+            <a class="nav-item c-sidebar-nav-link" href="https://AmadaXtreme.mn"><i
+                class="far fa-chevron-left px-2"></i>
+              буцах</a>
+            <a class="navbar-brand js-scroll-trigger mx-auto text-center" href="https://AmadaXtreme.mn">
+              <img src="img/ax-logo-type.png" alt="" width="85%" />
+            </a>
+          </div>
+          <div class="nav nav-tabs d-block" id="nav-tab" role="tablist">
+          </div>
+        </div>
+      </div>
+      <div class="col-9 content-background">
+        <div class="c-wrapper">
+          <div class="c-body">
+            <main class="c-main">
+              <!-- Main content here -->
+              <div class="tab-content" id="nav-tabContent"></div>
+            </main>
+          </div>
+        </div>
+      </div>
     </div>
-  </nav>
-  <div class="tab-content" id="nav-tabContent">
   </div>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

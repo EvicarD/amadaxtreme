@@ -4,7 +4,7 @@
       "make": "FORD",
       "model": "F250 4x4",
       "year": "2009-2014",
-      "detail": "Single & Dual cab,Super Duty",
+      "detail": "Single & Dual cab, Super Duty",
       "adventure": {
         "front": {
           "price": 250000,
@@ -28,7 +28,7 @@
     },
     "LAND CRUISER 70, 76": {
       "make": "toyota",
-      "model": "FZJ76, HZJ76 ,FZJ78, VDJ76, V8 Turbo Diesel",
+      "model": "FZJ76, HZJ76, FZJ78, VDJ76, V8 Turbo Diesel",
       "year": "2004-2007",
       "detail": "Station Wagon V8 Turbo Diezel",
       "adventure": {
@@ -54,7 +54,7 @@
     },
     "LAND CRUISER 78, 79": {
       "make": "toyota",
-      "model": "FZJ78, HZJ78-79 ,FZJ78, HZJ78, VDJ78, V8 Diesel",
+      "model": "FZJ78, HZJ78-79, FZJ78, HZJ78, VDJ78, V8 Diesel",
       "year": "1999-2014",
       "detail": "TROOP CARRIER",
       "adventure": {
@@ -82,7 +82,7 @@
       "make": "toyota",
       "model": "GRJ/RZJ/VZJ/KDJ/KDJ120, 121",
       "year": "2003-2009",
-      "detail": "Station Wagon ,SWR LWB",
+      "detail": "Station Wagon, SWR LWB",
       "adventure": {
         "front": {
           "price": 250000,
@@ -108,7 +108,7 @@
       "make": "toyota",
       "model": "GRJ150, TRJ150",
       "year": "2008-2018",
-      "detail": "Station Wagon ,SWR LWB",
+      "detail": "Station Wagon, SWR LWB",
       "adventure": {
         "front": {
           "price": 250000,
@@ -132,7 +132,7 @@
     },
     "LAND CRUISER 200": {
       "make": "toyota",
-      "model": "UZJ200/URJ/GRJ/VDJ 200",
+      "model": "UZJ200/URJ/GRJ/VDJ200",
       "year": "2007-2018",
       "detail": "Station Wagon",
       "adventure": {
@@ -212,7 +212,7 @@
       "make": "toyota",
       "model": "TRN/GRN",
       "year": "2005",
-      "detail": "SINGLE CAB ,EXTRA CAB,DUAL CAB, 4x4",
+      "detail": "SINGLE CAB, EXTRA CAB, DUAL CAB, 4x4",
       "adventure": {
         "front": {
           "price": 250000,
@@ -234,9 +234,9 @@
         }
       }
     },
-    "Tundra": {
+    "TUNDRA": {
       "make": "toyota",
-      "model": "UCK55, UPK55 ,USK55, UCK56, UPK56, USK 56",
+      "model": "UCK55, UPK55, USK55, UCK56, UPK56, USK56",
       "year": "2007-2014",
       "detail": "4.7L, 5.7L, PICKUP 4X4",
       "adventure": {
@@ -257,6 +257,32 @@
         "rear": {
           "price": 750000,
           "sku": "C-EXII-27-618SO"
+        }
+      }
+    },
+    "WRANGLER": {
+      "make": "jeep",
+      "model": "TJ",
+      "year": "1996-2007",
+      "detail": "2.5L 4 Cyl.sport 4.0L 6 Cyl. sahara",
+      "adventure": {
+        "front": {
+          "price": 250000,
+          "sku": "C-FE-26-503GS"
+        },
+        "rear": {
+          "price": 250000,
+          "sku": "C-GE-26-633GS"
+        }
+      },
+      "explorerII": {
+        "front": {
+          "price": 750000,
+          "sku": "C-EXII-28-522SO"
+        },
+        "rear": {
+          "price": 750000,
+          "sku": "C-EXII-28-536SO"
         }
       }
     }

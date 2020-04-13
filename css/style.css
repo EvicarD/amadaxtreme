@@ -156,3 +156,19 @@ body {
   font-weight: bold;
   line-height: 2em;
 }
+
+.c-sidebar {
+  width: auto !important;
+}
+
+.sidebar-background {
+  background-color: #3c4b64;
+}
+
+.content-background {
+  background-color: #ebedef;
+}
+
+.nav-tabs {
+  border-bottom: 0px !important;
+}

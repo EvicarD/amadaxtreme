@@ -4,7 +4,7 @@ function numberGrouping(number) {
 
 function renderHello() {
   var ourRequest = new XMLHttpRequest();
-  ourRequest.open("GET", "https://amadaxtreme.mn/product.json");
+  ourRequest.open("GET", "http://localhost:5500/amadaxtreme/product.json");
   ourRequest.onload = function () {
     if (ourRequest.status >= 200 && ourRequest.status < 400) {
       var ourData = JSON.parse(ourRequest.responseText);
@@ -45,10 +45,10 @@ function renderHTML(data) {
           exprsku: aCar.explorerII.rear.sku,
         });
         if (i === 0) {
-          tabsName += `<a class="nav-item nav-link active" id="nav-${aCarName}-tab" data-toggle="tab" href="#nav-${aCarName}" role="tab" aria-controls="nav-${aCarName}" aria-selected="true">${aCarName}</a>`;
+          tabsName += `<a class="nav-item c-sidebar-nav-link px-4" id="nav-${aCarName}-tab" data-toggle="tab" href="#nav-${aCarName}" role="tab" aria-controls="nav-${aCarName}" aria-selected="true">${aCarName}</a>`;
           tabContent += `<div class="tab-pane fade active show" id="nav-${aCarName}" role="tabpanel" aria-labelledby="nav-${aCarName}-tab">${rendered}</div>`;
         } else {
-          tabsName += `<a class="nav-item nav-link" id="nav-${aCarName}-tab" data-toggle="tab" href="#nav-${aCarName}" role="tab" aria-controls="nav-${aCarName}" aria-selected="true">${aCarName}</a>`;
+          tabsName += `<a class="nav-item c-sidebar-nav-link px-4" id="nav-${aCarName}-tab" data-toggle="tab" href="#nav-${aCarName}" role="tab" aria-controls="nav-${aCarName}" aria-selected="true">${aCarName}</a>`;
           tabContent += `<div class="tab-pane fade" id="nav-${aCarName}" role="tabpanel" aria-labelledby="nav-${aCarName}-tab">${rendered}</div>`;
         }
       }

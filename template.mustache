@@ -1,99 +1,13 @@
-<div class="container-fluid">
-  <div class="row cover text-center align-items-center p-5">
-    <div class="row mx-5 px-5">
-      <div class="col-md-8">
-        <img alt="Bootstrap Image Preview" src="./img/catalog/hitodrol/{{mainImage}}.png" class="img-fluid" />
-      </div>
-      <div class="col-md-4 align-self-end">
-        <img id="brand-logo" class="img-fluid" src="https://www.freeiconspng.com/uploads/toyota-logo-png-11.png" alt=""
-          width="50%" />
-      </div>
-      <div class="row">
-        <div class="col-md-8">
-          <h3 class="main-font base-yellow text-left ml-5 py-3 px-5">
-            ADVENTURE SERIES
-          </h3>
-          <div class="row px-5">
-            <div class="col-md-6">
-              <div class="row">
-                <div class="col-md-5">
-                  <img alt="Bootstrap Image Preview" src="./img/catalog/{{mainImage}}/front/a.png" class="img-fluid" />
-                </div>
-                <div class="col-md-7 text-left">
-                  <h6 class="text-uppercase font-weight-bold">
-                    Урд
-                  </h6>
-                  <h6>
-                    SKU: {{advfsku}}<br />
-                    <span class="currency">{{advfprice}}</span>
-                  </h6>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="row">
-                <div class="col-md-5">
-                  <img alt="Bootstrap Image Preview"
-                    src="./img/catalog/{{mainImage}}/front/b.png"
-                    class="img-fluid" />
-                </div>
-                <div class="col-md-7 text-left">
-                  <h6 class="text-uppercase font-weight-bold">
-                    Хойд
-                  </h6>
-                  <h6>
-                    SKU: {{advrsku}}<br />
-                    <span class="currency">{{advrprice}}</span>
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <h3 class="main-font base-yellow text-left ml-5 py-3 px-5">
-            EXPLORER II SERIES
-          </h3>
-          <div class="row px-5">
-            <div class="col-md-6">
-              <div class="row">
-                <div class="col-md-5">
-                  <img alt="Bootstrap Image Preview" src="https://www.radflo.com/images/F875.png" class="img-fluid" />
-                </div>
-                <div class="col-md-7 text-left">
-                  <h6 class="text-uppercase font-weight-bold">
-                    Урд
-                  </h6>
-                  <h6>
-                    SKU: {{expfsku}}<br />
-                    <span class="currency">{{expfprice}}</span>
-                  </h6>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="row">
-                <div class="col-md-5">
-                  <img alt="Bootstrap Image Preview"
-                    src="https://turn5.scene7.com/is/image/Turn5/T543273?obj=car&wid=1200&hei=900&sharpen=1"
-                    class="img-fluid align-self-end" />
-                </div>
-                <div class="col-md-7 text-left">
-                  <h6 class="text-uppercase font-weight-bold">
-                    Хойд
-                  </h6>
-                  <h6>
-                    SKU: {{exprsku}}<br />
-                    <span class="currency">{{exprprice}}</span>
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 pt-3">
-          <h3 class="text-uppercase main-font base-yellow">
-            {{type}}
-          </h3>
-          <ul class="list-unstyled text-left">
+<div class="row text-center align-items-center">
+  <div class="col-md-8">
+    <img alt="amadaxtreme амортизатор" src="./img/catalog/all/{{mainImage}}.png" class="img-fluid" />
+  </div>
+  <div class="col-md-4 align-self-center text-left px-0">
+    <div class="card" style="width: 20rem;">
+      <div class="card-body">
+        <h3 class="text-uppercase main-font base-yellow">{{type}}</h3>
+        <p class="card-text">
+          <ul class="list-unstyled" style="font-size: 15px;">
             <li class="list-item">
               Үйлдвлэгч: <span class="text-uppercase">{{make}}</span>
             </li>
@@ -106,10 +20,84 @@
             <li class="list-item">
               Тайлбар: {{detail}}
             </li>
-            <li class="list-item">
-              <a href="https://amadaxtreme.mn/product.json">бүтээгдэхүүн</a>
-            </li>
           </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-10">
+    <h3 class="main-font base-yellow text-left ml-5 py-3 px-5">
+      ADVENTURE SERIES
+    </h3>
+    <div class="row px-5">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-4">
+            <img alt="amadaxtreme амортизатор" src="./img/catalog/adventure series.png" class="img-fluid" />
+          </div>
+          <div class="col-md-8 text-left">
+            <h6 class="text-uppercase font-weight-bold">
+              Урд
+            </h6>
+            <h6>
+              SKU: {{advfsku}}<br />
+              <span class="currency">{{advfprice}}</span>
+            </h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-4">
+            <img alt="amadaxtreme амортизатор" src="./img/catalog/adventure series.png" class="img-fluid" />
+          </div>
+          <div class="col-md-8 text-left">
+            <h6 class="text-uppercase font-weight-bold">
+              Хойд
+            </h6>
+            <h6>
+              SKU: {{advrsku}}<br />
+              <span class="currency">{{advrprice}}</span>
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3 class="main-font base-yellow text-left ml-5 py-3 px-5">
+      EXPLORER II SERIES
+    </h3>
+    <div class="row px-5">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-5">
+            <img alt="amadaxtreme амортизатор" src="./img/catalog/explorer II series.png" class="img-fluid" />
+          </div>
+          <div class="col-md-7 text-left">
+            <h6 class="text-uppercase font-weight-bold">
+              Урд
+            </h6>
+            <h6>
+              SKU: {{expfsku}}<br />
+              <span class="currency">{{expfprice}}</span>
+            </h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-5">
+            <img alt="amadaxtreme амортизатор" src="./img/catalog/explorer II series.png"
+              class="img-fluid align-self-end" />
+          </div>
+          <div class="col-md-7 text-left">
+            <h6 class="text-uppercase font-weight-bold">
+              Хойд
+            </h6>
+            <h6>
+              SKU: {{exprsku}}<br />
+              <span class="currency">{{exprprice}}</span>
+            </h6>
+          </div>
         </div>
       </div>
     </div>
