@@ -212,3 +212,4 @@ dmypy.json
 .pyre/
 
 render.js
+.DS_Store

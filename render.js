@@ -4,7 +4,7 @@ function numberGrouping(number) {
 
 function renderHello() {
   var ourRequest = new XMLHttpRequest();
-  ourRequest.open("GET", "http://localhost:5500/amadaxtreme/product.json");
+  ourRequest.open("GET", "https://amadaxtreme.mn/product.json");
   ourRequest.onload = function () {
     if (ourRequest.status >= 200 && ourRequest.status < 400) {
       var ourData = JSON.parse(ourRequest.responseText);
