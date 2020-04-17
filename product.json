@@ -26,6 +26,32 @@
         }
       }
     },
+    "FG CRUISER": {
+      "make": "toyota",
+      "model": " ",
+      "year": "2006",
+      "detail": "4.0L-V6",
+      "adventure": {
+        "front": {
+          "price": 250000,
+          "sku": "C-GA-23-533GS"
+        },
+        "rear": {
+          "price": 250000,
+          "sku": "C-HD-26-539GS"
+        }
+      },
+      "explorerII": {
+        "front": {
+          "price": 750000,
+          "sku": "C-EXII-23-533SO"
+        },
+        "rear": {
+          "price": 750000,
+          "sku": "C-EXII-26-539SO"
+        }
+      }
+    },
     "LAND CRUISER 70, 76": {
       "make": "toyota",
       "model": "FZJ76, HZJ76, FZJ78, VDJ76, V8 Turbo Diesel",
@@ -75,6 +101,58 @@
         "rear": {
           "price": 750000,
           "sku": "C-EXII-26-502SO"
+        }
+      }
+    },
+    "LAND CRUISER 80": {
+      "make": "toyota",
+      "model": "FZJ80, HZJ80, HDT80",
+      "year": "1990-1998",
+      "detail": "Station Wagon",
+      "adventure": {
+        "front": {
+          "price": 250000,
+          "sku": "C-GA-26-522GS"
+        },
+        "rear": {
+          "price": 250000,
+          "sku": "C-HD-26-536GS"
+        }
+      },
+      "explorerII": {
+        "front": {
+          "price": 750000,
+          "sku": "C-GA-28-522GS"
+        },
+        "rear": {
+          "price": 750000,
+          "sku": "C-EXII-26-536SO"
+        }
+      }
+    },
+    "LAND CRUISER 100": {
+      "make": "toyota",
+      "model": "HDJ100, HZJ100, UZJ100",
+      "year": "1998-2007",
+      "detail": "Petrol and Diesel, Independent Front Suspension",
+      "adventure": {
+        "front": {
+          "price": 250000,
+          "sku": "C-GA-20-534GS"
+        },
+        "rear": {
+          "price": 250000,
+          "sku": "C-HD-26-535GS"
+        }
+      },
+      "explorerII": {
+        "front": {
+          "price": 750000,
+          "sku": "C-EXII-20-534SO"
+        },
+        "rear": {
+          "price": 750000,
+          "sku": "C-EXII-26-535SO"
         }
       }
     },

@@ -161,6 +161,10 @@ body {
   width: auto !important;
 }
 
+.c-sidebar-nav-link{
+  padding: .550rem 1rem;
+}
+
 .sidebar-background {
   background-color: #3c4b64;
 }
