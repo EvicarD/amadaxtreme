@@ -1,57 +1,5 @@
 [
   {
-    "F Series": {
-      "make": "FORD",
-      "model": "F250 4x4",
-      "year": "2009-2014",
-      "detail": "Single & Dual cab, Super Duty",
-      "adventure": {
-        "front": {
-          "price": 250000,
-          "sku": "C-GE-24-623GS"
-        },
-        "rear": {
-          "price": 250000,
-          "sku": "C-GA-31-624GS"
-        }
-      },
-      "explorerII": {
-        "front": {
-          "price": 750000,
-          "sku": "C-EXII-24-623CO"
-        },
-        "rear": {
-          "price": 750000,
-          "sku": "C-EXII-31-624SO"
-        }
-      }
-    },
-    "FG CRUISER": {
-      "make": "toyota",
-      "model": " ",
-      "year": "2006",
-      "detail": "4.0L-V6",
-      "adventure": {
-        "front": {
-          "price": 250000,
-          "sku": "C-GA-23-533GS"
-        },
-        "rear": {
-          "price": 250000,
-          "sku": "C-HD-26-539GS"
-        }
-      },
-      "explorerII": {
-        "front": {
-          "price": 750000,
-          "sku": "C-EXII-23-533SO"
-        },
-        "rear": {
-          "price": 750000,
-          "sku": "C-EXII-26-539SO"
-        }
-      }
-    },
     "LAND CRUISER 70, 76": {
       "make": "toyota",
       "model": "FZJ76, HZJ76, FZJ78, VDJ76, V8 Turbo Diesel",
@@ -156,6 +104,58 @@
         }
       }
     },
+    "LAND CRUISER 200": {
+      "make": "toyota",
+      "model": "UZJ200/URJ/GRJ/VDJ200",
+      "year": "2007-2018",
+      "detail": "Station Wagon",
+      "adventure": {
+        "front": {
+          "price": 250000,
+          "sku": "C-GA-27-621GS"
+        },
+        "rear": {
+          "price": 250000,
+          "sku": "C-GE-26-622GS"
+        }
+      },
+      "explorerII": {
+        "front": {
+          "price": 750000,
+          "sku": "C-EXII-27-621SO"
+        },
+        "rear": {
+          "price": 750000,
+          "sku": "C-EXII-26-539SO"
+        }
+      }
+    },
+    "LAND CRUISER 95 PRADO": {
+      "make": "toyota",
+      "model": "RZJ95",
+      "year": "1996-2002",
+      "detail": "Station Wagon",
+      "adventure": {
+        "front": {
+          "price": 250000,
+          "sku": "C-GA-21-529GS"
+        },
+        "rear": {
+          "price": 250000,
+          "sku": "C-HD-24-512GS"
+        }
+      },
+      "explorerII": {
+        "front": {
+          "price": 750000,
+          "sku": "C-EXII-27-621SO"
+        },
+        "rear": {
+          "price": 750000,
+          "sku": "C-EXII-26-539SO"
+        }
+      }
+    },
     "LAND CRUISER 120": {
       "make": "toyota",
       "model": "GRJ/RZJ/VZJ/KDJ/KDJ120, 121",
@@ -208,29 +208,81 @@
         }
       }
     },
-    "LAND CRUISER 200": {
+    "FG CRUISER": {
       "make": "toyota",
-      "model": "UZJ200/URJ/GRJ/VDJ200",
-      "year": "2007-2018",
-      "detail": "Station Wagon",
+      "model": " ",
+      "year": "2006",
+      "detail": "4.0L-V6",
       "adventure": {
         "front": {
           "price": 250000,
-          "sku": "C-GA-27-621GS"
+          "sku": "C-GA-23-533GS"
         },
         "rear": {
           "price": 250000,
-          "sku": "C-GE-26-622GS"
+          "sku": "C-HD-26-539GS"
         }
       },
       "explorerII": {
         "front": {
           "price": 750000,
-          "sku": "C-EXII-27-621SO"
+          "sku": "C-EXII-23-533SO"
         },
         "rear": {
           "price": 750000,
           "sku": "C-EXII-26-539SO"
+        }
+      }
+    },
+    "TACOMA 240 Series": {
+      "make": "toyota",
+      "model": "TRN/GRN",
+      "year": "2005",
+      "detail": "SINGLE CAB, EXTRA CAB, DUAL CAB, 4x4",
+      "adventure": {
+        "front": {
+          "price": 250000,
+          "sku": "C-GA-23-533GS"
+        },
+        "rear": {
+          "price": 250000,
+          "sku": "C-HD-26-539GS"
+        }
+      },
+      "explorerII": {
+        "front": {
+          "price": 750000,
+          "sku": "C-EXII-23-533SO"
+        },
+        "rear": {
+          "price": 750000,
+          "sku": "C-EXII-26-539SO"
+        }
+      }
+    },
+    "TUNDRA": {
+      "make": "toyota",
+      "model": "UCK55, UPK55, USK55, UCK56, UPK56, USK56",
+      "year": "2007-2014",
+      "detail": "4.7L, 5.7L, PICKUP 4X4",
+      "adventure": {
+        "front": {
+          "price": 250000,
+          "sku": "C-GA-25-617GS"
+        },
+        "rear": {
+          "price": 250000,
+          "sku": "C-HD-27-618GS"
+        }
+      },
+      "explorerII": {
+        "front": {
+          "price": 750000,
+          "sku": "C-EXII-25-617SO"
+        },
+        "rear": {
+          "price": 750000,
+          "sku": "C-EXII-27-618SO"
         }
       }
     },
@@ -286,55 +338,29 @@
         }
       }
     },
-    "TACOMA 240 Series": {
-      "make": "toyota",
-      "model": "TRN/GRN",
-      "year": "2005",
-      "detail": "SINGLE CAB, EXTRA CAB, DUAL CAB, 4x4",
+    "F Series": {
+      "make": "FORD",
+      "model": "F250 4x4",
+      "year": "2009-2014",
+      "detail": "Single & Dual cab, Super Duty",
       "adventure": {
         "front": {
           "price": 250000,
-          "sku": "C-GA-23-533GS"
+          "sku": "C-GE-24-623GS"
         },
         "rear": {
           "price": 250000,
-          "sku": "C-HD-26-539GS"
+          "sku": "C-GA-31-624GS"
         }
       },
       "explorerII": {
         "front": {
           "price": 750000,
-          "sku": "C-EXII-23-533SO"
+          "sku": "C-EXII-24-623CO"
         },
         "rear": {
           "price": 750000,
-          "sku": "C-EXII-26-539SO"
-        }
-      }
-    },
-    "TUNDRA": {
-      "make": "toyota",
-      "model": "UCK55, UPK55, USK55, UCK56, UPK56, USK56",
-      "year": "2007-2014",
-      "detail": "4.7L, 5.7L, PICKUP 4X4",
-      "adventure": {
-        "front": {
-          "price": 250000,
-          "sku": "C-GA-25-617GS"
-        },
-        "rear": {
-          "price": 250000,
-          "sku": "C-HD-27-618GS"
-        }
-      },
-      "explorerII": {
-        "front": {
-          "price": 750000,
-          "sku": "C-EXII-25-617SO"
-        },
-        "rear": {
-          "price": 750000,
-          "sku": "C-EXII-27-618SO"
+          "sku": "C-EXII-31-624SO"
         }
       }
     },
